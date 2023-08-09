@@ -32,8 +32,8 @@ echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 echo "Cleaning build artifacts..."
 make clean
 
-echo "Compiling writer..."
-make
+# echo "Compiling writer..."
+# make
 
 rm -rf "${WRITEDIR}"
 
